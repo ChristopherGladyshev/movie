@@ -1,0 +1,28 @@
+.container{
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .card{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    max-width: 200px;
+    position: relative;
+    img {
+      width: 100%;
+    }
+
+    &_footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .list-group{ 
+    display: flex;
+  }
+}
